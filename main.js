@@ -10,3 +10,8 @@ const animals = [
   'vovere',
 ];
 
+const vegetables = ['morka', 'svogunas', 'bulve'];
+
+function renderSelect(selector, dataList) {
+  // your code goes here
+}
