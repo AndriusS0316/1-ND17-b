@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ND17-a</title>
+</head>
+<style>
+body {
+display: flex;
+flex-direction: column;
+gap: 40px;
+min-height: 100vh;
+justify-content: center;
+align-items: center;
+}
+.option {
+  padding: 0 10px;
+  border-bottom: 1px dotted red;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+select,
+button {
+  padding: 5px 20px;
+  font-size: 30px;
+  line-height: 40px;
+}
+
+
+</style>
+<body>
+  <h1>Mano pasirinkimas yra <span class="option"></span></h1>
+<form>
+  <label for="animal">Mano megstamiausias gyvunas:</label>
+  <button type="submit">Pasirinkti</button>
+</form>
+
+  <script src="./main.js" type="module" defer></script>
+</body>
+</html>
